@@ -1,0 +1,203 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    overflow: visibile;
+    background-color: $bg-lightest;
+}
+
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/**
+ * Basic styles for links
+ */
+
+a {
+    color: $brand-color;
+    text-decoration: none;
+    @include on-event {
+        color: $text-color;
+        // text-decoration: underline;
+    }
+}
+
+.icon {
+    display: block;
+    width: 35%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%);
+    // color: red;
+    -webkit-filter: invert(100%);
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+}
+
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    //     .small-box {
+    //     width: 38vw !important;
+    // }
+}
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    .small-box {
+        width: 38vw !important;
+        &.active {
+            width: 100% !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .small-box {
+        width: 38vw !important;
+        overflow: visible;
+        &.active {
+            overflow: visible;
+            width: 100% !important;
+        }
+    }
+    .orange .col {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: block;
+    }
+    .orange .active {
+        padding-bottom: 20px !important;
+    }
+    .orange .col-2 {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .Close {
+        right: 2% !important;
+        top: 0% !important;
+        z-index: 1;
+    }
+    .skills {
+        padding: 2%;
+    }
+    .col {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: block;
+    }
+    .col-2 {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .col .companyLogo {
+        padding-top: 0;
+    }
+    .row {
+        padding-right: 5vh;
+        padding-top: 0;
+    }
+    div .nav-box {
+        overflow: visible;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        width: 100%;
+        height: 90%;
+        padding-left: 10%;
+    }
+    .active-state .arrow {
+        top: 50px;
+        left: 91%;
+    }
+    a img {
+        width: 18% !important;
+    }
+    p {
+        padding: 0;
+    }
+    .icon {
+        width: 45%;
+    }
+    .active h1 {
+        margin: 10px;
+    }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */
+}
+
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+}
+
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */
+}
+
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+}
+
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+    /* Styles */
+}
+
+
+/* iPhone 4 ----------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles */
+}

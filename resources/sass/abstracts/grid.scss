@@ -1,0 +1,27 @@
+.row {
+    color: red;
+    width: 100%;
+    height: auto;
+    padding: 3vh;
+}
+
+.col {
+    width: 32.5%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.col-half {
+    width: 48%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.col-2 {
+    width: 65.5%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}

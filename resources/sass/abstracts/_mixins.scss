@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+    @if $self {
+        &,
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+    }
+    @else {
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+    }
+}
+
+/// Make a context based selector a little more friendly
+/// @author Hugo Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+    #{$context} & {
+        @content;
+    }
+}
+
+@mixin floatUp($delay, $time, $state) {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+    animation: floatUp $time ease-in-out infinite;
+    animation-play-state: $state;
+    animation-delay: $delay;
+}
+
+@mixin floatDown($delay, $time, $state) {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+    animation: floatDown $time ease-in-out $state;
+    animation-delay: $delay;
+}
+
+@mixin getOut($delay) {
+    transition-delay: $delay;
+    z-index: 0;
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    transition-timing-function: ease-in;
+    transition-duration: 0.1s;
+    &:not(:hover) {
+        animation: none;
+    }
+}
+
+// @mixin getIn($delay) {
+//     transition-delay: $delay;
+//     z-index: 0;
+//     width: 0%;
+//     height: 0%;
+//     opacity: 0;
+//     transition-timing-function: ease-in;
+//     transition-duration: 0.1s;
+//     &:not(:hover) {
+//         animation: none;
+//     }
+// }

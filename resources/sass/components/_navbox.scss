@@ -1,0 +1,113 @@
+.nav-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 80%;
+    height: 90%;
+    transition-duration: 1.2s;
+    &:hover .small-box:not(:hover) {
+        transition-duration: 1.6s;
+        animation: none;
+        transform: scale(0.93);
+    }
+}
+
+.active-state {}
+
+.small-box {
+    border: solid $title-color;
+    border-width: 2px 5px 3px 4px;
+    border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
+    // width: 33%;
+    // height: 50%;
+    max-height: 40vh;
+    width: 26vw;
+    // min-width: 48%;
+    height: 50vw;
+    // min-height: auto;
+    display: inline-block;
+    margin: 1px;
+    // border-radius: 3px;
+    transition-duration: 1.2s;
+    &.orange {
+        background-color: $light-orange;
+        &:not(:hover) {
+            @include floatUp(0s, 2s, running);
+        }
+        &.inactive {
+            @include getOut(0);
+        }
+    }
+    &.lightblue {
+        // width: 100%;
+        background-color: $light-blue;
+        &:not(:hover) {
+            @include floatUp(0.5s, 2s, running);
+        }
+        &.inactive {
+            @include getOut(0.5);
+        }
+    }
+    // WHITE
+    &.darkblue {
+        background-color: $faded-white;
+        &:not(:hover) {
+            @include floatUp(0.75s, 2s, running);
+        }
+        &.inactive {
+            @include getOut(1);
+        }
+    }
+    &.brown {
+        background-color: $bg-dark;
+        &:not(:hover) {
+            @include floatDown(0s, 2s, infinite);
+        }
+        &.inactive {
+            @include getOut(1.5);
+        }
+    }
+    &.blue {
+        background-color: $brand-color;
+        &:not(:hover) {
+            @include floatDown(0.5s, 2s, infinite);
+        }
+        &.inactive {
+            @include getOut(2);
+        }
+    }
+    &.darkorange {
+        background-color: $dark-orange;
+        &:not(:hover) {
+            @include floatDown(0.75s, 2s, infinite);
+        }
+        &.inactive {
+            @include getOut(3);
+        }
+    }
+    &:hover:not(.active) {
+        transform: scale(1.03);
+        transition-duration: 1.3s;
+        box-shadow: 12px 6px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    &.active {
+        // padding: 2.5%;
+        transition-delay: 1.2s;
+        transition-duration: 1.5s;
+        // transition-timing-function: ease-in;
+        // // display: inline;
+        position: absolute;
+        width: 100%;
+        max-height: 1000vh;
+        height: auto;
+        z-index: 1;
+        // float: none;
+        left: 0%;
+        top: 0%;
+        &:not(:hover) {
+            animation: none;
+        }
+    }
+}
