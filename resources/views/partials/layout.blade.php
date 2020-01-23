@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>Salih's CV</title>
     <meta charset="utf-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title></title>
