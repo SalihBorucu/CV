@@ -93,7 +93,7 @@
                     style="animation-delay: .8s"
                 >
                     <div class="description">
-                        <h2>My Food Rota</h2>
+                        <h2>Issue-Tracker</h2>
                         <div class="video">
                             <iframe
                                 class="demo"
