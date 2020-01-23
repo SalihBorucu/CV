@@ -30,7 +30,7 @@
                 <div class="col-2">
                     <h2>University of Aberdeen</h2>
                     <p>
-MA in Management studies witha 2:1 degree.The course was 
+MA in Management studies with a 2:1 degree.The course was 
 highly social and practical with general understandings of 
 business management, which developed: </p>
 <p>An understanding of how profit is generated in businesses 
@@ -64,8 +64,8 @@ on â€œImpact of Technology Over the Marketing Systems in Entertainment Industryâ
                 <div class="col-2">
                     <h2>Turkish Maarif College</h2>
                     <p>
-Lycee diploma (degree) of 7.6,completed with IT(A), english(B), 
-turkish(A), sociology(B) and maths(C) Olevel GCSEs.
+Lycee diploma (degree) of 7.6,completed with IT (A), English (B), 
+Turkish (A), sociology (B) and maths (C) O level GCSEs.
                     </p>
                 </div>
                 </div>

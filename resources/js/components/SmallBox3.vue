@@ -17,7 +17,7 @@
         </div>
 
         <div class="row">
-            <transition name="bounce">
+            <!-- <transition name="bounce">
                 <div
                     class="col"
                     v-if="activation === '3'"
@@ -83,6 +83,59 @@
                                 alt=""
                             />
                         </div>
+                    </div>
+                </div>
+            </transition> -->
+            <transition name="bounce">
+                <div
+                    class="col"
+                    v-if="activation === '3'"
+                    style="animation-delay: .8s"
+                >
+                    <div class="description">
+                        <h2>My Food Rota</h2>
+                        <div class="video">
+                            <iframe
+                                class="demo"
+                                :src="'/videos/issue-tracker.mp4'"
+                                allowfullscreen
+                            />
+                        </div>
+                        <p>
+                            A platform for project management enabling the users
+                            to create, edit, delete tasks and containers as well
+                            as a dragable task adjustor. The UI for the platform
+                            was purchased and adapted from Zawiastudio.com.
+                            please feel free to tryout on
+                            <a>issue-tracker.salihborucu.com</a>
+                            .
+                        </p>
+                        <h2>Tools Used In this project</h2>
+                        <div class="logos"></div>
+                        <img
+                            value="3"
+                            class="logo"
+                            :src="'/img/pglogos/vuejs.png'"
+                            alt=""
+                        />
+                        <img
+                            value="3"
+                            class="logo"
+                            :src="'/img/pglogos/dragula.svg'"
+                            alt=""
+                        />
+                        <img
+                            value="3"
+                            class="logo"
+                            :src="'/img/pglogos/laravel.png'"
+                            alt=""
+                        />
+                        <img
+                            value="3"
+                            class="logo"
+                            :src="'/img/pglogos/bootstrap.png'"
+                            alt=""
+                        />
                     </div>
                 </div>
             </transition>

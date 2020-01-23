@@ -2333,6 +2333,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["activation"],
   mounted: function mounted() {
@@ -2351,6 +2353,59 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -38824,7 +38879,11 @@ var render = function() {
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-2" }, [
-                    _c("h2", [_vm._v("DWCC - 2019 January -> Current")]),
+                    _c("h2", [_vm._v("Business Development Representative")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("strong", [_vm._v("DWCC - 2019 January -> Current")])
+                    ]),
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
@@ -38834,7 +38893,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n                        Developed broad knowledge of the internal\n                        CRM/CallEnabler systems as well as SalesForce.com.\n                        This role has encouraged me to discover the supply\n                        chain, DevOps and sales enablement SaaS space.\n                        Alongside my daily activities in my spare time I\n                        supported the development of the company webpage\n                        using HTML, CSS and Javascript for integrated forms\n                        alongside Wix. Please feel free to visit the\n                        "
+                        "\n                        This role has encouraged me to discover the supply\n                        chain, DevOps and sales enablement SaaS space.\n                        Alongside my daily activities in my spare time I\n                        supported the development of the company webpage\n                        using HTML, CSS and Javascript for integrated forms\n                        alongside Wix. Please feel free to visit the\n                        "
                       ),
                       _c(
                         "a",
@@ -38876,19 +38935,19 @@ var render = function() {
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-2" }, [
-                    _c("h2", [
-                      _vm._v("JD Wetherspoon - 2015 September -> 2019 January")
+                    _c("h2", [_vm._v("Shift Manager")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("strong", [
+                        _vm._v(
+                          "JD Wetherspoon - 2015 September -> 2019\n                            January"
+                        )
+                      ])
                     ]),
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n                        As a Mod 2 Shift Manager I was responsible for\n                        implementing the business strategy through out by\n                        quick decision-making, delegation and planned\n                        business models.\n                    "
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "\n                        Providing perfect customer service in a fast-paced\n                        environment and forming the bridge between the area\n                        manager and the staff.\n                    "
+                        "\n                        As a Mod 2 Shift Manager I was responsible for\n                        implementing the business strategy through out by\n                        quick decision-making, delegation and planned\n                        business models. Providing perfect customer service\n                        in a fast-paced environment and forming the bridge\n                        between the area manager and the staff.\n                    "
                       )
                     ])
                   ])
@@ -38986,7 +39045,7 @@ var render = function() {
                         _c("iframe", {
                           staticClass: "demo",
                           attrs: {
-                            src: "/videos/myfoodrota.mp4",
+                            src: "/videos/issue-tracker.mp4",
                             allowfullscreen: ""
                           }
                         })
@@ -38994,76 +39053,53 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _vm._v(
-                          "\n                        A simple platform for creating a weekly food rota\n                        with a final shopping list. This was my first\n                        project with XAMPP exploring html, css, javascript,\n                        php and a brief introduction to GSAP.\n                    "
+                          "\n                        A platform for project management enabling the users\n                        to create, edit, delete tasks and containers as well\n                        as a dragable task adjustor. The UI for the platform\n                        was purchased and adapted from Zawiastudio.com.\n                        please feel free to tryout on\n                        "
+                        ),
+                        _c("a", [_vm._v("issue-tracker.salihborucu.com")]),
+                        _vm._v(
+                          "\n                        .\n                    "
                         )
                       ]),
                       _vm._v(" "),
                       _c("h2", [_vm._v("Tools Used In this project")]),
                       _vm._v(" "),
-                      _c("div", { staticClass: "logos" }, [
-                        _c("img", {
-                          staticClass: "logo basic",
-                          attrs: {
-                            value: "3",
-                            src: "/img/pglogos/html.png",
-                            alt: ""
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "logo basic",
-                          attrs: {
-                            value: "3",
-                            src: "/img/pglogos/css.png",
-                            alt: ""
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "logo",
-                          attrs: {
-                            value: "3",
-                            src: "/img/pglogos/js.png",
-                            alt: ""
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "logo",
-                          attrs: {
-                            value: "3",
-                            src: "/img/pglogos/bootstrap.png",
-                            alt: ""
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "logo",
-                          attrs: {
-                            value: "3",
-                            src: "/img/pglogos/php.png",
-                            alt: ""
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "logo",
-                          attrs: {
-                            value: "3",
-                            src: "/img/pglogos/jquery.gif",
-                            alt: ""
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "logo",
-                          attrs: {
-                            value: "3",
-                            src: "/img/pglogos/GSAP.svg",
-                            alt: ""
-                          }
-                        })
-                      ])
+                      _c("div", { staticClass: "logos" }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "logo",
+                        attrs: {
+                          value: "3",
+                          src: "/img/pglogos/vuejs.png",
+                          alt: ""
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "logo",
+                        attrs: {
+                          value: "3",
+                          src: "/img/pglogos/dragula.svg",
+                          alt: ""
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "logo",
+                        attrs: {
+                          value: "3",
+                          src: "/img/pglogos/laravel.png",
+                          alt: ""
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "logo",
+                        attrs: {
+                          value: "3",
+                          src: "/img/pglogos/bootstrap.png",
+                          alt: ""
+                        }
+                      })
                     ])
                   ]
                 )
@@ -39318,7 +39354,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\nMA in Management studies witha 2:1 degree.The course was \nhighly social and practical with general understandings of \nbusiness management, which developed: "
+                        "\nMA in Management studies with a 2:1 degree.The course was \nhighly social and practical with general understandings of \nbusiness management, which developed: "
                       )
                     ]),
                     _vm._v(" "),
@@ -39365,7 +39401,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\nLycee diploma (degree) of 7.6,completed with IT(A), english(B), \nturkish(A), sociology(B) and maths(C) Olevel GCSEs.\n                    "
+                        "\nLycee diploma (degree) of 7.6,completed with IT (A), English (B), \nTurkish (A), sociology (B) and maths (C) O level GCSEs.\n                    "
                       )
                     ])
                   ])
@@ -39563,7 +39599,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("p", [
                       _vm._v(
-                        "\n                        Learning Python to explore the physical side of\n                        programming to mostly work on retro arcade games and\n                        basic Pi introductions.\n                    "
+                        "\n                        Exploring the physical side of programming to mostly\n                        work on retro arcade games and basic Pi\n                        introductions.\n                    "
                       )
                     ])
                   ])
@@ -39661,7 +39697,7 @@ var render = function() {
                         "a",
                         {
                           attrs: {
-                            href: "https://www.facebook.com/salih.borucu.16",
+                            href: "https://twitter.com/borucu_salih",
                             target: "_blank"
                           }
                         },
@@ -39669,7 +39705,7 @@ var render = function() {
                           _c("img", {
                             staticClass: "logo social",
                             attrs: {
-                              src: "/img/icons/social/png/001-facebook.png",
+                              src: "/img/icons/social/png/002-twitter.png",
                               alt: ""
                             }
                           })

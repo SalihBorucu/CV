@@ -32,7 +32,8 @@
                     </div>
 
                     <div class="col-2">
-                        <h2>DWCC - 2019 January -> Current</h2>
+                        <h2>Business Development Representative</h2>
+                        <p><strong>DWCC - 2019 January -> Current</strong></p>
                         <p>
                             Managing the end to end account based marketing
                             cycle from initial account identification and lead
@@ -41,8 +42,6 @@
                             share and build pipeline for our various customers.
                         </p>
                         <p>
-                            Developed broad knowledge of the internal
-                            CRM/CallEnabler systems as well as SalesForce.com.
                             This role has encouraged me to discover the supply
                             chain, DevOps and sales enablement SaaS space.
                             Alongside my daily activities in my spare time I
@@ -69,17 +68,20 @@
                         <img :src="'/img/pglogos/jdw.png'" alt="" class="JDW" />
                     </div>
                     <div class="col-2">
-                        <h2>JD Wetherspoon - 2015 September -> 2019 January</h2>
+                        <h2>Shift Manager</h2>
+                        <p>
+                            <strong
+                                >JD Wetherspoon - 2015 September -> 2019
+                                January</strong
+                            >
+                        </p>
                         <p>
                             As a Mod 2 Shift Manager I was responsible for
                             implementing the business strategy through out by
                             quick decision-making, delegation and planned
-                            business models.
-                        </p>
-                        <p>
-                            Providing perfect customer service in a fast-paced
-                            environment and forming the bridge between the area
-                            manager and the staff.
+                            business models. Providing perfect customer service
+                            in a fast-paced environment and forming the bridge
+                            between the area manager and the staff.
                         </p>
                     </div>
                 </div>

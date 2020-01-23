@@ -35,13 +35,13 @@
                         </p>
                         <div class="col">
                             <a
-                                href="https://www.facebook.com/salih.borucu.16"
+                                href="https://twitter.com/borucu_salih"
                                 target="_blank"
                             >
                                 <img
                                     class="logo social"
                                     :src="
-                                        '/img/icons/social/png/001-facebook.png'
+                                        '/img/icons/social/png/002-twitter.png'
                                     "
                                     alt=""
                                 />

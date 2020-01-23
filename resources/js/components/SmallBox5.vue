@@ -95,9 +95,9 @@
                         <h2>Programming For Pi</h2>
                         <img class="logo" :src="'/img/pglogos/pi.png'" alt="" />
                         <p>
-                            Learning Python to explore the physical side of
-                            programming to mostly work on retro arcade games and
-                            basic Pi introductions.
+                            Exploring the physical side of programming to mostly
+                            work on retro arcade games and basic Pi
+                            introductions.
                         </p>
                     </div>
                 </div>
