@@ -95,7 +95,7 @@
                     <div class="description">
                         <h2>Issue-Tracker</h2>
                         <div class="video">
-                            <video class="demo" autoplay>
+                            <video class="demo" autoplay playsinline muted>
                                 <source
                                     :src="'/videos/issue-tracker.mp4'"
                                     type="video/mp4"
@@ -150,7 +150,7 @@
                     <div class="description">
                         <h2>Journey CRM</h2>
                         <div class="video">
-                            <video class="demo" autoplay>
+                            <video class="demo" autoplay playsinline muted>
                                 <source :src="'/videos/JourneyCRM.mp4'" />
                             </video>
                         </div>
@@ -207,7 +207,7 @@
                     <div class="description">
                         <h2>CSV Editor</h2>
                         <div class="video">
-                            <video class="demo" autoplay>
+                            <video class="demo" autoplay playsinline muted>
                                 <source :src="'/videos/CSVeditor.mp4'" />
                             </video>
                         </div>
