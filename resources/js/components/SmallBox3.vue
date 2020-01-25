@@ -27,7 +27,7 @@
                         <h2>My Food Rota</h2>
                         <div class="video">
                             <iframe
-                                class="demo"
+                                class="demo" autoplay
                                 :src="'/videos/myfoodrota.mp4'"
                                 allowfullscreen
                             />
@@ -95,11 +95,12 @@
                     <div class="description">
                         <h2>Issue-Tracker</h2>
                         <div class="video">
-                            <iframe
-                                class="demo"
-                                :src="'/videos/issue-tracker.mp4'"
-                                allowfullscreen
-                            />
+                            <video class="demo" autoplay>
+                                <source
+                                    :src="'/videos/issue-tracker.mp4'"
+                                    type="video/mp4"
+                                />
+                            </video>
                         </div>
                         <p>
                             A platform for project management enabling the users
@@ -149,11 +150,9 @@
                     <div class="description">
                         <h2>Journey CRM</h2>
                         <div class="video">
-                            <iframe
-                                class="demo"
-                                :src="'/videos/JourneyCRM.mp4'"
-                                allowfullscreen
-                            />
+                            <video class="demo" autoplay>
+                                <source :src="'/videos/JourneyCRM.mp4'" />
+                            </video>
                         </div>
                         <p>
                             A CRM tool designed for tele-marketers and business
@@ -208,11 +207,9 @@
                     <div class="description">
                         <h2>CSV Editor</h2>
                         <div class="video">
-                            <iframe
-                                class="demo"
-                                :src="'/videos/CSVeditor.mp4'"
-                                allowfullscreen
-                            />
+                            <video class="demo" autoplay>
+                                <source :src="'/videos/CSVeditor.mp4'" />
+                            </video>
                         </div>
                         <p>
                             A single page application for CSV editing/filtering
