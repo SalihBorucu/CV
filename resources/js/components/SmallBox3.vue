@@ -95,7 +95,15 @@
                     <div class="description">
                         <h2>Issue-Tracker</h2>
                         <div class="video">
-                            <video class="demo" playsinline muted>
+                            <video
+                                class="demo"
+                                autoplay
+                                loop
+                                muted
+                                autobuffer
+                                preload="auto"
+                                poster="poster.png"
+                            >
                                 <source
                                     :src="'/videos/issue-tracker.mp4'"
                                     type="video/mp4"
@@ -108,7 +116,11 @@
                             as a dragable task adjustor. The UI for the platform
                             was purchased and adapted from Zawiastudio.com.
                             please feel free to tryout on
-                            <a>issue-tracker.salihborucu.com</a>
+                            <a
+                                href="http://issue-tracker.test/login"
+                                target="_blank"
+                                >issue-tracker.salihborucu.com</a
+                            >
                             .
                         </p>
                         <h2>Tools Used In this project</h2>
@@ -150,7 +162,7 @@
                     <div class="description">
                         <h2>Journey CRM</h2>
                         <div class="video">
-                            <video class="demo" playsinline muted>
+                            <video class="demo" muted autoplay loop preload>
                                 <source :src="'/videos/JourneyCRM.mp4'" />
                             </video>
                         </div>
@@ -207,7 +219,17 @@
                     <div class="description">
                         <h2>CSV Editor</h2>
                         <div class="video">
-                            <video class="demo" playsinline muted>
+                            <video
+                                class="demo"
+                                autoplay=""
+                                muted=""
+                                loop=""
+                                playsinline=""
+                                id="vid"
+                                preload="auto"
+                                width="100%"
+                                height="100%"
+                            >
                                 <source :src="'/videos/CSVeditor.mp4'" />
                             </video>
                         </div>
