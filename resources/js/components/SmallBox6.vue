@@ -130,9 +130,7 @@ export default {
             .querySelector('meta[name="csrf-token"]')
             .getAttribute("content")
     }),
-    mounted() {
-        console.log("Smallbox6 mounted.");
-    },
+    mounted() {},
     methods: {
         thanks() {
             Swal.fire({

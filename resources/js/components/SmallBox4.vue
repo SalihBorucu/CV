@@ -79,7 +79,7 @@ Turkish (A), sociology (B) and maths (C) O level GCSEs.
 export default {
     props: ["activation"],
     mounted() {
-        console.log("Smallbox4 mounted.");
+       
     }
 };
 </script>

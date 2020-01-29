@@ -94,9 +94,7 @@
 
 <script>
 export default {
-    mounted() {
-        console.log("Navpan mounted.");
-    },
+    mounted() {},
     data() {
         return {
             activation: 7
@@ -123,9 +121,7 @@ export default {
                 // console.log("nope");
             }
         },
-        cancel() {
-            console.log("asdhj");
-        },
+        cancel() {},
         changePage(value) {
             var newPage = parseInt(this.activation, 10) + 1;
             this.activation = newPage.toString();

@@ -109,8 +109,6 @@
 <script>
 export default {
     props: ["activation"],
-    mounted() {
-        console.log("Smallbox5 mounted.");
-    }
+    mounted() {}
 };
 </script>

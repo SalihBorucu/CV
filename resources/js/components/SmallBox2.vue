@@ -93,8 +93,6 @@
 <script>
 export default {
     props: ["activation"],
-    mounted() {
-        console.log("Smallbox2 mounted.");
-    }
+    mounted() {}
 };
 </script>
