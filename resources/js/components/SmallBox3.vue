@@ -95,15 +95,7 @@
                     <div class="description">
                         <h2>Issue-Tracker</h2>
                         <div class="video">
-                            <video
-                                class="demo"
-                                autoplay
-                                loop
-                                muted
-                                autobuffer
-                                preload="auto"
-                                poster="poster.png"
-                            >
+                            <video class="demo" autoplay muted preload="none">
                                 <source
                                     :src="'/videos/issue-tracker.mp4'"
                                     type="video/mp4"
@@ -162,7 +154,7 @@
                     <div class="description">
                         <h2>Journey CRM</h2>
                         <div class="video">
-                            <video class="demo" muted autoplay loop preload>
+                            <video class="demo" muted preload="none">
                                 <source :src="'/videos/JourneyCRM.mp4'" />
                             </video>
                         </div>
@@ -221,14 +213,9 @@
                         <div class="video">
                             <video
                                 class="demo"
-                                autoplay=""
-                                muted=""
-                                loop=""
-                                playsinline=""
-                                id="vid"
+                                autoplay
+                                playsinline
                                 preload="auto"
-                                width="100%"
-                                height="100%"
                             >
                                 <source :src="'/videos/CSVeditor.mp4'" />
                             </video>
