@@ -2615,19 +2615,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["activation"],
   mounted: function mounted() {
@@ -39065,14 +39052,7 @@ var render = function() {
                           "video",
                           {
                             staticClass: "demo",
-                            attrs: {
-                              autoplay: "",
-                              loop: "",
-                              muted: "",
-                              autobuffer: "",
-                              preload: "auto",
-                              poster: "poster.png"
-                            },
+                            attrs: { autoplay: "", muted: "", preload: "none" },
                             domProps: { muted: true }
                           },
                           [
@@ -39167,12 +39147,7 @@ var render = function() {
                           "video",
                           {
                             staticClass: "demo",
-                            attrs: {
-                              muted: "",
-                              autoplay: "",
-                              loop: "",
-                              preload: ""
-                            },
+                            attrs: { muted: "", preload: "none" },
                             domProps: { muted: true }
                           },
                           [
@@ -39262,15 +39237,9 @@ var render = function() {
                             staticClass: "demo",
                             attrs: {
                               autoplay: "",
-                              muted: "",
-                              loop: "",
                               playsinline: "",
-                              id: "vid",
-                              preload: "auto",
-                              width: "100%",
-                              height: "100%"
-                            },
-                            domProps: { muted: true }
+                              preload: "auto"
+                            }
                           },
                           [
                             _c("source", {
