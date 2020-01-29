@@ -109,7 +109,7 @@
                             was purchased and adapted from Zawiastudio.com.
                             please feel free to tryout on
                             <a
-                                href="http://issue-tracker.test/login"
+                                href="http://issue-tracker.salihborucu.com/login"
                                 target="_blank"
                                 >issue-tracker.salihborucu.com</a
                             >
