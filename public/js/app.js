@@ -2615,6 +2615,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["activation"],
   mounted: function mounted() {
@@ -39048,22 +39049,16 @@ var render = function() {
                       _c("h2", [_vm._v("Issue-Tracker")]),
                       _vm._v(" "),
                       _c("div", { staticClass: "video" }, [
-                        _c(
-                          "video",
-                          {
-                            staticClass: "demo",
-                            attrs: { autoplay: "", muted: "", preload: "none" },
-                            domProps: { muted: true }
-                          },
-                          [
-                            _c("source", {
-                              attrs: {
-                                src: "/videos/issue-tracker.mp4",
-                                type: "video/mp4"
-                              }
-                            })
-                          ]
-                        )
+                        _c("iframe", {
+                          attrs: {
+                            src:
+                              "https://www.youtube.com/embed/Bg2U7nwsLMY?autoplay=1",
+                            frameborder: "0",
+                            allow:
+                              "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                            allowfullscreen: ""
+                          }
+                        })
                       ]),
                       _vm._v(" "),
                       _c("p", [
@@ -39143,19 +39138,16 @@ var render = function() {
                       _c("h2", [_vm._v("Journey CRM")]),
                       _vm._v(" "),
                       _c("div", { staticClass: "video" }, [
-                        _c(
-                          "video",
-                          {
-                            staticClass: "demo",
-                            attrs: { muted: "", preload: "none" },
-                            domProps: { muted: true }
-                          },
-                          [
-                            _c("source", {
-                              attrs: { src: "/videos/JourneyCRM.mp4" }
-                            })
-                          ]
-                        )
+                        _c("iframe", {
+                          attrs: {
+                            src:
+                              "https://www.youtube.com/embed/NQMjdVYkQ-g?autoplay=1",
+                            frameborder: "0",
+                            allow:
+                              "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                            allowfullscreen: ""
+                          }
+                        })
                       ]),
                       _vm._v(" "),
                       _c("p", [
@@ -39231,22 +39223,16 @@ var render = function() {
                       _c("h2", [_vm._v("CSV Editor")]),
                       _vm._v(" "),
                       _c("div", { staticClass: "video" }, [
-                        _c(
-                          "video",
-                          {
-                            staticClass: "demo",
-                            attrs: {
-                              autoplay: "",
-                              playsinline: "",
-                              preload: "auto"
-                            }
-                          },
-                          [
-                            _c("source", {
-                              attrs: { src: "/videos/CSVeditor.mp4" }
-                            })
-                          ]
-                        )
+                        _c("iframe", {
+                          attrs: {
+                            src:
+                              "https://www.youtube.com/embed/IL3GUZtDCZI?autoplay=1",
+                            frameborder: "0",
+                            allow:
+                              "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                            allowfullscreen: ""
+                          }
+                        })
                       ]),
                       _vm._v(" "),
                       _c("p", [

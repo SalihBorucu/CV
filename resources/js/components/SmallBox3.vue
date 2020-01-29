@@ -95,12 +95,12 @@
                     <div class="description">
                         <h2>Issue-Tracker</h2>
                         <div class="video">
-                            <video class="demo" autoplay muted preload="none">
-                                <source
-                                    :src="'/videos/issue-tracker.mp4'"
-                                    type="video/mp4"
-                                />
-                            </video>
+                            <iframe
+                                src="https://www.youtube.com/embed/Bg2U7nwsLMY?autoplay=1"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
                         </div>
                         <p>
                             A platform for project management enabling the users
@@ -154,9 +154,12 @@
                     <div class="description">
                         <h2>Journey CRM</h2>
                         <div class="video">
-                            <video class="demo" muted preload="none">
-                                <source :src="'/videos/JourneyCRM.mp4'" />
-                            </video>
+                            <iframe
+                                src="https://www.youtube.com/embed/NQMjdVYkQ-g?autoplay=1"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
                         </div>
                         <p>
                             A CRM tool designed for tele-marketers and business
@@ -211,14 +214,12 @@
                     <div class="description">
                         <h2>CSV Editor</h2>
                         <div class="video">
-                            <video
-                                class="demo"
-                                autoplay
-                                playsinline
-                                preload="auto"
-                            >
-                                <source :src="'/videos/CSVeditor.mp4'" />
-                            </video>
+                            <iframe
+                                src="https://www.youtube.com/embed/IL3GUZtDCZI?autoplay=1"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
                         </div>
                         <p>
                             A single page application for CSV editing/filtering
