@@ -30,11 +30,11 @@
     border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
     transform: rotate(2deg);
     transition-duration: 2s;
-    &:hover {
-        transition-duration: 2s;
-        transform: rotate(0deg);
-        border-width: 3px 3px 5px 5px;
-    }
+    // &:hover {
+    //     transition-duration: 2s;
+    //     transform: rotate(0deg);
+    //     border-width: 3px 3px 5px 5px;
+    // }
 }
 
 .description {
@@ -50,12 +50,12 @@
     font-family: "Bubblegum Sans", cursive, sans-serif;
     color: $text-color;
     font-size: calc(9px + 0.8vw);
-    &:hover {
-        transition-duration: 2s;
-        transform: rotate(0deg);
-        border-width: 3px 3px 5px 5px;
-        // border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-    }
+    // &:hover {
+    //     transition-duration: 2s;
+    //     transform: rotate(0deg);
+    //     border-width: 3px 3px 5px 5px;
+    //     // border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+    // }
 }
 
 .skills {
@@ -67,11 +67,11 @@
     text-align: right;
     background-color: $faded-white;
     margin-bottom: 10px;
-    &:hover {
-        transition-duration: 2s;
-        transform: rotate(0deg);
-        border-width: 3px 3px 5px 5px;
-    }
+    // &:hover {
+    //     transition-duration: 2s;
+    //     transform: rotate(0deg);
+    //     border-width: 3px 3px 5px 5px;
+    // }
 }
 
 .logo {

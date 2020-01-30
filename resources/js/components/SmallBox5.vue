@@ -17,7 +17,7 @@
         </div>
         <transition name="bounce">
             <div
-                class="row"
+                class="row hobbies"
                 v-if="activation === '5'"
                 style="animation-delay: .8s"
             >
