@@ -177,17 +177,18 @@ a {
 /* iPads (portrait) ----------- */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    body {
-        height: 90vh !important;
-    }
+    // body {
+    //     height: 90vh !important;
+    // }
 }
 
 
 /* Desktops and laptops ----------- */
 
 @media only screen and (min-width: 1224px) {
-    body {
-        height: 90vh !important;
+    .nav-box {
+        // transform: scale(1, 1);
+        transform: scale(0.2);
     }
 }
 
