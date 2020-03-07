@@ -41,24 +41,18 @@
                     style="animation-delay: .8s"
                 >
                     <p class="description">
-                        <!-- Ambitious Management Studies(MA) graduate with vast
-                        knowledge in SaaSspace. Over three years people
-                        management experience, excellent attention to detail and
-                        an out going manner to building relationships.
-                        Self-taught intermediate software developer (focused on
-                        front-end) with an eager desire to learn more.
-                        Interested in information systems, web development and
-                        sales IT. -->
-
                         Hi my name is Salih and welcome to my resume! I am an
                         ambitious Management Studies graduate with vast
                         knowledge in SAAS space and a passion for developing web
                         pages. I have been educating myself in web development
-                        for over 6 months day and night as well as working as a
+                        for over a year day and night as well as working as a
                         business development representative. I have ticked a lot
-                        of boxes along the way to become a full-stack developer
-                        and currently feel I am ready for a web developer
-                        position. Please feel free to have a look at my current
+                        of boxes along the way to be comfortable about calling
+                        myself a full-stack developer and currently I am ready
+                        to be involved in new projects. Alongside my non-stop
+                        drive for improvement, I also contribute to some
+                        free-lance projects on a regular basis. Please feel free
+                        to have a look at my current
                         <a value="3"> projects</a> and also to
                         <a value="6">
                             contact
