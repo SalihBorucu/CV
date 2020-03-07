@@ -46,13 +46,13 @@
                         knowledge in SAAS space and a passion for developing web
                         pages. I have been educating myself in web development
                         for over a year day and night as well as working as a
-                        business development representative. I have ticked a lot
-                        of boxes along the way to be comfortable about calling
-                        myself a full-stack developer and currently I am ready
-                        to be involved in new projects. Alongside my non-stop
-                        drive for improvement, I also contribute to some
-                        free-lance projects on a regular basis. Please feel free
-                        to have a look at my current
+                        business development representative. Alongside my
+                        non-stop drive for improvement, I also contribute to
+                        some free-lance projects on a regular basis. I have
+                        ticked a lot of boxes along the way to be comfortable
+                        about calling myself a full-stack developer and
+                        currently I am ready to be involved in new projects.
+                        Please feel free to have a look at my current
                         <a value="3"> projects</a> and also to
                         <a value="6">
                             contact
