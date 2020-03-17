@@ -78,16 +78,6 @@
                         activation == '5'
                 }"
             ></small-box6>
-            <div></div>
-            <!-- <div>
-            Icons made by
-            <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
-                >Freepik</a
-            >
-            from
-            <a href="https://www.flaticon.com/" title="Flaticon"
-                >www.flaticon.com</a
-            > -->
         </div>
     </div>
 </template>
@@ -101,7 +91,6 @@ export default {
         };
     },
     created: function() {
-        // window.addEventListener("keyup", this.cancel);
         window.addEventListener("keydown", event => {
             if (event.key === "Escape") {
                 this.activation = 7;
@@ -112,13 +101,7 @@ export default {
         something($event) {
             var selectedValue = $event.target.getAttribute("value");
             if (selectedValue !== null) {
-                // console.log(selectedValue);
                 this.activation = selectedValue;
-                // if (selectedValue === "null") {
-                //     this.activation = null;
-                // }
-            } else {
-                // console.log("nope");
             }
         },
         cancel() {},

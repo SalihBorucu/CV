@@ -108,7 +108,6 @@
 
 <script>
 export default {
-    props: ["activation"],
-    mounted() {}
+    props: ["activation"]
 };
 </script>

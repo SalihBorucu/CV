@@ -5,7 +5,7 @@
     }
     50% {
         box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-        transform: translatey(-2vw);
+        transform: translatey(-0.7vw);
     }
     100% {
         box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -20,7 +20,7 @@
     }
     50% {
         box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-        transform: translatey(2vw);
+        transform: translatey(0.7vw);
     }
     100% {
         box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -56,9 +56,3 @@
 .bounce-leave-active {
     visibility: hidden;
 }
-
-.bounce-enter,
-.bounce-leave-to
-/* .bounce-leave-active below version 2.1.8 */
-
-{}

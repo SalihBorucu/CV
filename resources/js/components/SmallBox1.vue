@@ -186,12 +186,6 @@
 
 <script>
 export default {
-    props: ["activation"],
-
-    mounted() {},
-    data() {
-        return {};
-    },
-    methods: {}
+    props: ["activation"]
 };
 </script>

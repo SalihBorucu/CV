@@ -77,9 +77,6 @@ Turkish (A), sociology (B) and maths (C) O level GCSEs.
 
 <script>
 export default {
-    props: ["activation"],
-    mounted() {
-       
-    }
+    props: ["activation"]
 };
 </script>
