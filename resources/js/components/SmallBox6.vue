@@ -23,15 +23,15 @@
                 <div class="description">
                     <h2>My Details</h2>
                     <div class="row">
-                        <div class="col">
                             <p>
-                                Phone Number: +447504855932
+                                For more contact information please pop me a message below and I will get back to you as soon as possible!
                             </p>
-                            <p>Address: Bristol, United Kingdom</p>
+                        <div class="col">
+                            <!-- <p>Address: Bristol, United Kingdom</p> -->
                         </div>
 
                         <p class="col">
-                            Email: salih_borucu@hotmail.com
+                            Thank you for checking out my CV!
                         </p>
                         <div class="col">
                             <a
