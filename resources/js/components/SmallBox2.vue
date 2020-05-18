@@ -70,10 +70,7 @@
                     <div class="col-2">
                         <h2>Shift Manager</h2>
                         <p>
-                            <strong
-                                >JD Wetherspoon - 2015 September -> 2019
-                                January</strong
-                            >
+                            <strong>JD Wetherspoon - 2015 September -> 2019 January</strong>
                         </p>
                         <p>
                             As a Mod 2 Shift Manager I was responsible for

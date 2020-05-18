@@ -171,12 +171,12 @@
                         <p>PHP for Beginners - Edwin Diaz</p>
                     </div>
                     <div class="col">
-                        <h2>Software Packages</h2>
+                        <h2>Utility Tools</h2>
                         <p>MySql Workbench</p>
-                        <p>Git</p>
+                        <p>Git/Bitbucket</p>
                         <p>Atlassian Tools</p>
-                        <p>CS6 Photoshop</p>
-                        <p>Salesforce.com</p>
+                        <p>NGINX</p>
+                        <p>Figma</p>
                     </div>
                 </div>
             </div>
